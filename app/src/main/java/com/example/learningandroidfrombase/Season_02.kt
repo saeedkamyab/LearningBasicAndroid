@@ -13,7 +13,8 @@ fun main(){
             x:Double,y:Double->x+y
     }
     val a:Double=3.0
-    a.isPrime();
+    a.isPrime()
+    a.isPrime()
     divide(10)
     println(sum(30.0,20.0))
 //---------------------------------------------
