@@ -15,6 +15,8 @@ fun main(){
     val a:Double=3.0
     a.isPrime()
     a.isPrime()
+    if(a.isPrime())
+
     divide(10)
     println(sum(30.0,20.0))
 //---------------------------------------------
