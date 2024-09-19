@@ -1,0 +1,19 @@
+Subject: [PATCH] init
+---
+Index: app/src/main/java/com/example/learningandroidfrombase/Season_02.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/learningandroidfrombase/Season_02.kt b/app/src/main/java/com/example/learningandroidfrombase/Season_02.kt
+--- a/app/src/main/java/com/example/learningandroidfrombase/Season_02.kt	(revision b81405168514e4565b101aa286b32f701bfa8e7b)
++++ b/app/src/main/java/com/example/learningandroidfrombase/Season_02.kt	(revision b10d212d589cdb6a1f8bd11eeba82ced60d2fb24)
+@@ -15,6 +15,8 @@
+     val a:Double=3.0
+     a.isPrime()
+     a.isPrime()
++    if(a.isPrime())
++
+     divide(10)
+     println(sum(30.0,20.0))
+ //---------------------------------------------
