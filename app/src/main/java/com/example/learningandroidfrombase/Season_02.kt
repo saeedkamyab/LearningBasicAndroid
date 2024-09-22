@@ -2,10 +2,16 @@ package com.example.learningandroidfrombase
 
 fun main(){
 
-
-
-
-
+    //Exceptions
+val array= arrayOf(3,true,4.0)
+try{
+    for(i in array.indices){
+        println("current vale: ${array[i]},next value:${array[i+1]}")
+    }
+}catch (error:ArrayIndexOutOfBoundsException){
+println("We got an error")
+}
+//----------------------------------
 
 
     //Lambda and Extension Methods
