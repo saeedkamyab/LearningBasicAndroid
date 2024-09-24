@@ -12,6 +12,20 @@ val car1:Car=Car()
     }
     val car2:Car2=Car2("black",BrandNames.BENEZ,10000)
 
+val player1=Player(2)
+val player2=Player("Ali")
+val player3=Player<String>("Ali2")
+}
+//Generics
+class Player<T>(input:T){
+init{//there is an init in each class and it runs when you make an instance of a class
+    println(input.toString())
+}
+}
+
+//interfaces
+class ssk:IInter{
+
 }
 
 //Inheritance
